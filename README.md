@@ -10,7 +10,7 @@ Tested on
 * Ubuntu 20.04.2.0 LTS (Focal Fossa
 
 Download and launch the script
-
+```
   __sudo rm -f /tmp/ubuntu-install*__
 
   **wget https://raw.githubusercontent.com/Dugelon/ubuntu-install-baseline/master/ubuntu-install.sh -P /tmp/**
@@ -18,6 +18,8 @@ Download and launch the script
   **chmod a+x /tmp/ubuntu-install.sh**
 
   **sudo /tmp/ubuntu-install.sh**
+```
+
 
 TOOLS && SOFTS
 
