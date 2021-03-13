@@ -13,7 +13,7 @@ Download and launch the script
 ```
   __sudo rm -f /tmp/ubuntu-install*__
 
-  **wget https://raw.githubusercontent.com/Dugelon/ubuntu-install-baseline/master/ubuntu-install.sh -P /tmp/**
+  **wget https://raw.githubusercontent.com/Dugelon/workingonubuntu/main/ubuntu-install.sh -P /tmp/**
 
   **chmod a+x /tmp/ubuntu-install.sh**
 

@@ -95,6 +95,12 @@
       gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size
       gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
       
+
+  - name: Download and Install Microsoft Teams to talk with our lovely customers and friends!
+    shell: |
+      wget -P /tmp/ https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.4.00.4855_amd64.deb
+      sudo apt install /tmp/teams*.deb
+
   - name: Install Helm!
     shell: |
       curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
@@ -136,4 +142,3 @@
     shell: |  
       helm completion bash
       source <(helm completion bash)
-      
