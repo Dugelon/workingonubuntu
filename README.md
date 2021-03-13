@@ -23,6 +23,13 @@ Download and launch the script
 
 TOOLS && SOFTS
 Thunderbird : Messaging client
+Remmina : 
+Gnome-tweak-tool:
+VLC:
+TMUX:
+Filezilla:
+Flameshot:
+DrawIO:
 
 
 URLs
@@ -30,6 +37,12 @@ Outlook online : https://outlook.office.com/mail/inbox
 OneNote : https://www.onenote.com/notebooks
 OneDrive : https://onedrive.live.com/
 
-INFO
+HOWTOs
+gigit
+upup
+RDP
+SAP
+TWEAK
+Dock
 
 
