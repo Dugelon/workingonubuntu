@@ -118,3 +118,22 @@
   - name: GNew document right click
     shell: |  
       touch ~/Templates/"Untitled Document"
+
+  - name: Tune our .bashrc file with aliases and other good stuff!
+    blockinfile:
+      path: ~/.bashrc
+      block: |
+        alias ll='ls -alF'
+        alias la='ls -A'
+        alias l='ls -CF'
+        alias gigit='git add . && git commit -m "updated by me because I miaou" && git push'
+        alias upup='sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && sudo apt-get autoremove --purge -y'
+        alias k=kubectl
+        source <(kubectl completion bash)
+        complete -F __start_kubectl k
+
+  - name: Tune our user experience!
+    shell: |  
+      helm completion bash
+      source <(helm completion bash)
+      
