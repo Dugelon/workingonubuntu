@@ -1,7 +1,6 @@
 #! /bin/bash
-#System
-sudo apt-get update && apt-get upgrade -y
-#Softs
+# We need git and ansible to run our installation process
+sudo apt-get update
 sudo apt-get install ansible -y
 sudo apt-get install git -y
 sudo rm /tmp/ubuntu-install.yml*
