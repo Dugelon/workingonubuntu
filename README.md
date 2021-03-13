@@ -22,10 +22,13 @@ Download and launch the script
 
 
 TOOLS && SOFTS
+Thunderbird : Messaging client
 
 
 URLs
-
+Outlook online : https://outlook.office.com/mail/inbox
+OneNote : https://www.onenote.com/notebooks
+OneDrive : https://onedrive.live.com/
 
 INFO
 

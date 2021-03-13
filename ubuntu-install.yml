@@ -44,6 +44,9 @@
       - gparted
       - filezilla
       - python3-pip
+      - remmina
+      - flameshot
+
       
   - name: Install Docker Prerequisites because we will need it!
     apt:
@@ -70,6 +73,13 @@
       - clamav-daemon
       - clamav-freshclam
       - clamtk
+
+  - name: Install FortiClient so we can connect to our corporate network
+    shell: |
+        wget -O - https://repo.fortinet.com/repo/6.4/ubuntu/DEB-GPG-KEY | sudo apt-key add -
+        echo "deb [arch=amd64] https://repo.fortinet.com/repo/6.4/ubuntu/ /bionic multiverse" | sudo tee -a /etc/apt/sources.list > /dev/null
+        sudo apt-get update && sudo apt-get install forticlient
+
 
   - name: Install Visual Studio code because we love it!
     snap:
