@@ -9,7 +9,7 @@ Tested on
 * Ubuntu 19.10 Eoan
 * Ubuntu 20.04.2.0 LTS (Focal Fossa
 
-* Download and launch the script
+Download and launch the script
 
   __sudo rm -f /tmp/ubuntu-install*__
 
