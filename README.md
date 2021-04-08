@@ -11,38 +11,8 @@ Tested on
 
 Download and launch the script
 ```
-  __sudo rm -f /tmp/ubuntu-install*__
-
-  **wget https://raw.githubusercontent.com/Dugelon/workingonubuntu/main/ubuntu-install.sh -P /tmp/**
-
-  **chmod a+x /tmp/ubuntu-install.sh**
-
-  **sudo /tmp/ubuntu-install.sh**
+sudo rm -f /tmp/ubuntu-install*
+wget https://raw.githubusercontent.com/Dugelon/workingonubuntu/main/ubuntu-install.sh -P /tmp/
+chmod a+x /tmp/ubuntu-install.sh
+sudo /tmp/ubuntu-install.sh
 ```
-
-
-TOOLS && SOFTS
-Thunderbird : Messaging client
-Remmina : 
-Gnome-tweak-tool:
-VLC:
-TMUX:
-Filezilla:
-Flameshot:
-DrawIO:
-
-
-URLs
-Outlook online : https://outlook.office.com/mail/inbox
-OneNote : https://www.onenote.com/notebooks
-OneDrive : https://onedrive.live.com/
-
-HOWTOs
-gigit
-upup
-RDP
-SAP
-TWEAK
-Dock
-
-
