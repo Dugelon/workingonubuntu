@@ -118,7 +118,7 @@
   - name: Install Helm!
     shell: |
       curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
-      helm repo add stable https://kubernetes-charts.storage.googleapis.com/
+      helm repo add stable https://charts.helm.sh/stable/
       helm repo update
    
   #Manually force bionic because at this time no release for eoane
